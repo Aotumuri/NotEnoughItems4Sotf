@@ -1,0 +1,1 @@
+execute as @p if entity @p[nbt={Inventory:[{Slot:0b,components:{"minecraft:custom_data":{Upgrade:True}}}]}] run function neifours:upgrade/upgradechecker
