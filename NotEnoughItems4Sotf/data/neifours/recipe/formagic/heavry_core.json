@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "III",
+      "IRI",
+      "ISI"
+    ],
+    "key": {
+      "I": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "minecraft:quartz"
+        }
+      ],
+      "R": [
+        {
+          "item": "minecraft:amethyst_shard"
+        },
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ],
+      "S": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "id": "minecraft:heavy_core"
+    }
+  }
+  

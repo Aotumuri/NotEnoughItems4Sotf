@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone"
+      "id": "minecraft:water_bucket"
     },
     "title": ".w.",
-    "description": ">w<",
+    "description": ">w< これはバグで表示されてるから、ここが見れたらどうやって観れたかを教えてね！！！絶対にだよ！！！ありがとおおおおおおおおおおおおお！！！",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "neifours:usingitemcheck"
+    "function": "neifours:magic/checkusingitemcheck"
   }
 }

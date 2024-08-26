@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " GH",
+      " SG",
+      "S  "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gunpowder"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "H": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "result": {
+      "id": "minecraft:stick",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:item_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":true,\"text\":\"不思議な保護の杖\"}",
+        "minecraft:lore": [
+          "\"右クリックをすると周りのクリーパーとTNTを消し去る杖(MagicPotCost:1)\""
+        ],
+        "minecraft:rarity": "uncommon",
+        "minecraft:custom_data": "{MagicStick_CT:True}",
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation": 0,
+          "can_always_eat": true,
+          "eat_seconds": 2147483647
+        }
+      }
+    }
+  }
+  

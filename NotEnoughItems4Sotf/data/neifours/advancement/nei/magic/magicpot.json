@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "custom_color": 16186877
+          }
+        }
+      },
+      "title": "魔法の瓶",
+      "description": "これが始まり",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "neifours:nei/firststep",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:splash_potion",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16186877
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "recipes": [
+            "neifours:formagic/heavry_core"
+        ]
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -26,7 +26,7 @@
         "minecraft:rarity": "epic",
         "minecraft:custom_data": "{MagicPot:True}",
         "minecraft:potion_contents": {
-          "custom_color": 16777215
+          "custom_color": 16186877
         }
       }
     }

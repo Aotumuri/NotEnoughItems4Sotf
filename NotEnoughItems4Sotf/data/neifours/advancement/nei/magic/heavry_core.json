@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:heavy_core"
+      },
+      "title": "必須部品",
+      "description": "魔法の杖まであと少し",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "neifours:nei/magic/magicpot",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:splash_potion",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16186877
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "recipes": [
+            "neifours:magicstick/ct"
+        ]
+    },
+    "sends_telemetry_event": true
+  }
+  
