@@ -13,7 +13,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "neifours:nei/magic/heavry_core",
+    "parent": "neifours:nei/magic/magicstick/lb/lb",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
