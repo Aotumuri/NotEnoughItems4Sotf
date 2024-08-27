@@ -23,7 +23,9 @@ MODでも良かったのですがSotfにも使えるようにDatapackとなっ�
 </details>
 <details>
 <summary>その他</summary>
-まだないって！
+魔法の杖
+いくつかの種類があるよ！クリーパーを消し飛ばすだけの魔法の杖も！
+誰が使うの！
 </details>
 </details>
 
