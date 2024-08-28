@@ -10,6 +10,16 @@ MODでも良かったのですがSotfにも使えるようにDatapackとなっ�
 ・[Minecraft-Survival-of-the-Fittest](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest) by [chocobaumu](https://github.com/chocobaumu)<br>
 ＞もっと難しく！<br>
 
+## このDatapackの使い方。
+<details>
+<summary>アイテムのアップグレード方法</summary>
+まず、魔法の杖の場合はしたいものを一番左のスロット(Slot:0b)におき魔法の瓶を投げると、UpgradeCostを満たすものをインベントリに持っていればアップグレードできます。
+</details>
+<details>
+<summary>魔法の杖の使い方</summary>
+MagicPotCost以上の魔法の瓶を持っている際に魔法の杖を右クリックすれば発動できます。
+</details>
+
 ## このDatapackの良いのかよくないのかわからない特徴！
 <details>
 <summary>追加されるものの例</summary>
@@ -25,6 +35,7 @@ MODでも良かったのですがSotfにも使えるようにDatapackとなっ�
 <summary>その他</summary>
 魔法の杖
 いくつかの種類があるよ！クリーパーを消し飛ばすだけの魔法の杖も！
+100ダメージを出す特殊な雷を召喚する杖も！
 誰が使うの！
 </details>
 </details>

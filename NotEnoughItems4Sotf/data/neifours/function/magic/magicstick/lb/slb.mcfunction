@@ -12,7 +12,7 @@ execute as @s[tag=magic_power] run summon minecraft:marker ~ ~ ~ {Tags:["markerf
 execute as @s[tag=magic_power] run tp @e[type=marker,tag=markerfourlb,sort=nearest,limit=1] ~ ~1 ~ ~ ~
 execute as @e[type=marker,tag=markerfourlb,sort=nearest,limit=1] run scoreboard objectives add distance_lb dummy
 execute as @e[type=marker,tag=markerfourlb,sort=nearest,limit=1] run scoreboard players set @s distance_lb 100
-execute as @e[type=marker,tag=markerfourlb,sort=nearest,limit=1] run function neifours:magic/magicstick/lb/markerfourlb
+execute as @e[type=marker,tag=markerfourlb,sort=nearest,limit=1] run function neifours:magic/magicstick/lb/markerforslb
 #後ろ処理
 #tagを消すだけ
 #あと必要MPもここから変えてね！

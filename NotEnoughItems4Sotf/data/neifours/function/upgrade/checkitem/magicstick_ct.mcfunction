@@ -1,4 +1,4 @@
-#火薬10個！
+#アイテム確認
 execute at @p run tag @s add item_counter
 scoreboard objectives add itemschecker dummy
 execute as @p store result score @s itemschecker run clear @s minecraft:gunpowder 0

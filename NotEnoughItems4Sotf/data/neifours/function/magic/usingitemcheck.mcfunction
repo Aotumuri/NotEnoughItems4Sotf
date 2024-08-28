@@ -7,4 +7,6 @@ execute as @a[tag=useitem] if entity @p[nbt={SelectedItem:{components:{"minecraf
 execute as @a[tag=useitem] if entity @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{MagicStick_LB:True}}}}] run function neifours:magic/magicstick/lb/lb
 #neifours:magic/magicstick/lb/slb
 execute as @a[tag=useitem] if entity @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{MagicStick_SLB:True}}}}] run function neifours:magic/magicstick/lb/slb
+#neifours:magic/magicstick/lb/sslb
+execute as @a[tag=useitem] if entity @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{MagicStick_SSLB:True}}}}] run function neifours:magic/magicstick/lb/sslb
 execute as @a[tag=useitem] run tag @s remove useitem
