@@ -4,8 +4,8 @@ give @p stick[max_stack_size=1,custom_name='{"bold":true,"color":"yellow","itali
 give @p stick[max_stack_size=1,custom_name='{"bold":true,"color":"yellow","italic":true,"text":"不思議な保護の杖"}',lore=['"少し前にワープする杖(MagicPotCost:1)(UpgradeCost:エンダーパール10個)"'],rarity="uncommon",custom_data={MagicStick_TP:True,Upgrade:True},food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:2147483647}] 1
 function neifours:moremp
 #下に行くほど強い
-#不思議な保護の杖　Yellow
-#神秘的な保護の杖　Yellow
-#不思議な加護の杖　Gold
-#神秘的な加護の杖　Gold
-#神々しい加護の杖　White
+#不思議な保護の杖　Yellow  MPC:1
+#神秘的な保護の杖　Yellow  MPC:2
+#不思議な加護の杖　Gold    MPC:4
+#神秘的な加護の杖　Gold    MPC:5
+#神々しい加護の杖　White   MPC:10

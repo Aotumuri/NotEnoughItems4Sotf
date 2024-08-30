@@ -1,0 +1,1 @@
+give @p stick[max_stack_size=1,custom_name='{"bold":true,"color":"white","italic":true,"text":"神々しい加護の杖"}',lore=['"とっても遠くの前にワープしてバフを与える杖(MagicPotCost:10)"'],rarity="rare",custom_data={MagicStick_SSSSTP:True,Upgrade:True},food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:2147483647}] 1
