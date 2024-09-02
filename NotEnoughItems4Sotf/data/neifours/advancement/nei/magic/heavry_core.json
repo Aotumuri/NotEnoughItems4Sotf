@@ -31,7 +31,8 @@
     "rewards": {
         "recipes": [
             "neifours:magicstick/ct",
-            "neifours:magicstick/lb"
+            "neifours:magicstick/lb",
+            "neifours:magicstick/tp"
         ]
     },
     "sends_telemetry_event": true
