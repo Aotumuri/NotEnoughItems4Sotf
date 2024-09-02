@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stick",
+        "components": {
+          "minecraft:custom_data": "{MagicStick_SSSSTP:True,Upgrade:True}"
+        }
+      },
+      "title": "移動革命",
+      "description": "最強の移動と少しの無敵の力",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "neifours:nei/magic/magicstick/tp/ssstp",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:stick",
+              "components": {
+                "minecraft:custom_data": "{MagicStick_SSSSTP:True,Upgrade:True}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  
