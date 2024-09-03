@@ -5,5 +5,8 @@ execute as @e[type=potion,nbt={Item:{id:"minecraft:splash_potion",count:1,compon
 # #魔法系統は多くなる気がするので
 # function mefours:magic
 
+# tick系統
+function neifours:tick/
+
 scoreboard objectives add magic_cooldown dummy
 execute as @a run scoreboard players add @a magic_cooldown 1

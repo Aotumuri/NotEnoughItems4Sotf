@@ -3,4 +3,4 @@
 summon marker ~ ~ ~ {Tags:["markerfourmakecircleline"]}
 execute as @e[type=marker,tag=markerfourmakecircleline,sort=nearest,limit=1] run scoreboard objectives add utilities_circleline dummy
 execute as @e[type=marker,tag=markerfourmakecircleline,sort=nearest,limit=1] run scoreboard players set @s utilities_circleline 360
-$execute as @e[type=marker,tag=markerfourmakecircleline,sort=nearest,limit=1] run function neifours:utilities/particle/processingprogramformakecircleline {particle:$(particle),scale:$(scale)}
+$execute as @e[type=marker,tag=markerfourmakecircleline,sort=nearest,limit=1] run function neifours:utilities/particle/processingprogramformakecircleline {particle:"$(particle)",scale:$(scale)}

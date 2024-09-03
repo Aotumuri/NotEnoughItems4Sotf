@@ -13,9 +13,11 @@ execute at @s unless block ^ ^ ^ #neifours:can_through run tag @s add done_tp
 execute if entity @s[tag=done_tp] run execute at @s as @a if entity @s[tag=tag_tp_tp] run tp @s ~ ~1 ~
 execute if entity @s[tag=done_tp] run particle dragon_breath ~ ~1 ~ 0 0 0 0.25 25 force
 execute if entity @s[tag=done_tp] run execute as @a if entity @s[tag=tag_tp_tp] run tag @s remove tag_tp_tp
+execute if entity @s[tag=done_tp] run playsound entity.enderman.teleport player @s ~ ~ ~ 1 1.25 1
 execute if entity @s[tag=done_tp] run kill @s
 execute if score @s tp_distacne matches 1.. at @s run function neifours:magic/magicstick/tp/markerforsstp
 execute if score @s tp_distacne matches ..1 at @s run execute at @s as @a if entity @s[tag=tag_tp_tp] run tp @s ~ ~1 ~
 execute if score @s tp_distacne matches ..1 at @s run execute as @a if entity @s[tag=tag_tp_tp] run tag @s remove tag_tp_tp
 execute if score @s tp_distacne matches ..1 at @s run particle dragon_breath ~ ~1 ~ 0 0 0 0.25 25 force
+playsound entity.enderman.teleport player @s ~ ~ ~ 1 1.25 1
 kill @s

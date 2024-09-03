@@ -12,10 +12,10 @@ execute as @s[tag=magic_power] run summon minecraft:marker ~ ~ ~ {Tags:["markerf
 execute as @s[tag=magic_power] run tp @e[type=marker,tag=markerfortp,sort=nearest,limit=1] ~ ~1 ~ ~ ~
 execute as @e[type=marker,tag=markerfortp,sort=nearest,limit=1] run scoreboard objectives add tp_distacne dummy
 execute as @e[type=marker,tag=markerfortp,sort=nearest,limit=1] run scoreboard players set @s tp_distacne 75
-execute as @e[type=marker,tag=markerfortp,sort=nearest,limit=1] run tag @s add tag_tp_tp
+execute as @s[tag=magic_power] run tag @s add tag_tp_tp
 execute as @e[type=marker,tag=markerfortp,sort=nearest,limit=1] run function neifours:magic/magicstick/tp/markerforsstp
-effect give @s speed 32 0
-effect give @s regeneration 10 0
+execute as @s[tag=magic_power] run effect give @s speed 32 0
+execute as @s[tag=magic_power] run effect give @s regeneration 10 0
 #後ろ処理
 #tagを消すだけ
 #あと必要MPもここから変えてね！
