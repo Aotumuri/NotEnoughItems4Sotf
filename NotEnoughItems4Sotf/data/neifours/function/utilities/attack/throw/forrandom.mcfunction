@@ -1,1 +1,1 @@
-$tp @s ~ ~ ~ $(random) ~
+$tp @s ~ ~ ~ $(random) 0
