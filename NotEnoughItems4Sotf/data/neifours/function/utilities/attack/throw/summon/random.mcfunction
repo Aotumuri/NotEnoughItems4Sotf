@@ -1,6 +1,6 @@
-#function neifours:utilities/attack/throw/summon/random {y:6,ahead:100}
+#function neifours:utilities/attack/throw/summon/random {y:6,ahead:100,tag:uslb}
 
-summon marker ~ ~ ~ {Tags:[naifours_throw]}
+$summon marker ~ ~ ~ {Tags:[naifours_throw,Neifours.Throw.Tag.$(tag)]}
 
 scoreboard objectives add Neifours.Throw.random dummy
 execute store result score @s Neifours.Throw.random run random value 0..359

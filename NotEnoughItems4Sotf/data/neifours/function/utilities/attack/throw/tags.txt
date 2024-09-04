@@ -1,0 +1,18 @@
+$(tag)
+tag : 
+info :
+function : 
+
+uslb
+Neifours.Throw.Tag.uslb
+ultra_super_lightning_bolt
+neifours:utilities/summonmagic/ultra_super_lightning_bolt {time:400}
+
+slb
+Neifours.Throw.Tag.slb
+super_lightning_bolt
+neifours:utilities/summonmagic/super_lightning_bolt {time:400}
+
+
+tags : 
+Neifours.Throw.Tag.$(tags)
