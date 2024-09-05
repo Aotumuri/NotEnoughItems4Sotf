@@ -9,7 +9,7 @@ execute as @s at @s if score @s Neifours.Throw.ahead matches ..0 run scoreboard 
 
 execute as @s at @s if score @s Neifours.Throw.Y matches 5.. run scoreboard players remove @s Neifours.Throw.Y 5
 scoreboard players remove @s Neifours.Throw.Y 1
-execute as @s at @s if score @s Neifours.Throw.Y matches ..-25 run scoreboard players set @s Neifours.Throw.Y -25
+execute as @s at @s if score @s Neifours.Throw.Y matches ..-50 run scoreboard players set @s Neifours.Throw.Y -25
 
 
 execute store result storage neifours:throw ahead double 0.01 run scoreboard players get @s Neifours.Throw.ahead
