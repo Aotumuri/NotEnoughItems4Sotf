@@ -13,6 +13,10 @@ Neifours.Throw.Tag.slb
 super_lightning_bolt
 neifours:utilities/summonmagic/super_lightning_bolt {time:400}
 
+water_wave
+Neifours.Throw.Tag.water_wave
+water_wave
+none
 
 tags : 
 Neifours.Throw.Tag.$(tags)
