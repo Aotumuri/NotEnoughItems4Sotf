@@ -17,7 +17,8 @@
     },
     "rewards": {
       "recipes": [
-        "neifours:magicpot"
+        "neifours:magicpot",
+        "neifours:food/egaps"
       ]
     },
     "sends_telemetry_event": true

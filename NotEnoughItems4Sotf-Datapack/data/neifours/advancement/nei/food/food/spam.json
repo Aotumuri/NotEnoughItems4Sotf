@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:paper",
+        "components": {
+          "minecraft:custom_data": "{NeifoursFoodSpam:true}"
+        }
+      },
+      "title": "諸刃の剣",
+      "description": "たった一つの体力に最大威力の攻撃を",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "neifours:nei/food/egaps",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:paper",
+              "components": {
+                "minecraft:custom_data": "{NeifoursFoodSpam:true}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

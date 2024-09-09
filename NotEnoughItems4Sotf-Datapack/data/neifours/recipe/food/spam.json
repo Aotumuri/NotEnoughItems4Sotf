@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "PIP",
+      "IEI",
+      "PIP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "I": {
+        "item": "minecraft:ink_sac"
+      },
+      "E": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "result": {
+      "id": "minecraft:paper",
+      "count": 9,
+      "components": {
+        "food": {
+          "nutrition": 1,
+          "saturation": 5,
+          "can_always_eat": true,
+          "eat_seconds": 1,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:poison",
+                "amplifier": 9,
+                "duration": 640,
+                "show_particles": true,
+                "show_icon": true
+              }
+            },
+            {
+              "effect": {
+                "id": "minecraft:strength",
+                "amplifier": 9,
+                "duration": 640,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
+        },
+        "minecraft:lore": [
+          "{\"bold\":true,\"italic\":true,\"obfuscated\":true,\"text\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\"underlined\":true}"
+        ],
+        "minecraft:rarity": "epic",
+        "minecraft:custom_data": "{NeifoursFoodSpam:True}",
+        "minecraft:custom_name": "{\"bold\":true,\"italic\":true,\"text\":\"SPAM\",\"underlined\":true}",
+        "minecraft:max_stack_size": 99
+      }
+    }
+  }
+  
