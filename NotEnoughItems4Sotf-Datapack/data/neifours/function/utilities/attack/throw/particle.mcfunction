@@ -11,3 +11,7 @@ execute as @s at @s if entity @s[tag=Neifours.Throw.Tag.slb_1] run particle dust
 #water_wave
 execute as @s at @s if entity @s[tag=Neifours.Throw.Tag.water_wave] run particle splash ~ ~ ~ 0.1 0.1 0.1 0 5 force
 execute as @s at @s if entity @s[tag=Neifours.Throw.Tag.water_wave] run particle dust{color:[0.0,0.16,0.98],scale:1} ~ ~1 ~ 0.1 0.1 0.1 0 2 force
+
+#aotumuri_1
+execute as @s at @s if entity @s[tag=Neifours.Throw.Tag.aotumuri_1] run particle dust{color:[0.0,0.16,0.98],scale:1} ~ ~1 ~ 0.1 0.1 0.1 0 2 force
+

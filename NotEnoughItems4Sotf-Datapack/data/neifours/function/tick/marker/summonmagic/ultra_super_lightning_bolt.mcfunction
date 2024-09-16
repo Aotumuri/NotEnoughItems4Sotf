@@ -1,9 +1,9 @@
 scoreboard objectives add Neifours.Cooldown.Summonmagic dummy
 scoreboard players remove @s Neifours.Cooldown.Summonmagic 1
 scoreboard objectives add Neifours.Cooldown.Summonmagic.Circle dummy
-scoreboard players add @s Neifours.Cooldown.Summonmagic.Circle 1
-execute if score @s Neifours.Cooldown.Summonmagic.Circle matches 25.. run function neifours:utilities/particle/makecircleline {particle:"dust{color:[0.0,0.64,0.63],scale:4}",scale:3}
-execute if score @s Neifours.Cooldown.Summonmagic.Circle matches 25.. run scoreboard players set @s Neifours.Cooldown.Summonmagic.Circle 0
+scoreboard players remove @s Neifours.Cooldown.Summonmagic.Circle 1
+execute if score @s Neifours.Cooldown.Summonmagic.Circle matches ..0 run function neifours:utilities/particle/makecircleline {particle:"dust{color:[0.0,0.64,0.63],scale:4}",scale:3}
+execute if score @s Neifours.Cooldown.Summonmagic.Circle matches ..0 run scoreboard players set @s Neifours.Cooldown.Summonmagic.Circle 20
 tp @s ~ ~ ~ ~4 ~
 
 particle dust{color:[1,1,1],scale:1} ^4 ^ ^ 0 0 0 0 1 force

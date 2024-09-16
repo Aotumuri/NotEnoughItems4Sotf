@@ -23,5 +23,9 @@ Neifours.Throw.Tag.water_wave
 water_wave
 none
 
+aotumuri_1
+Neifours.Throw.Tag.aotumuri_1
+Neifours.tag.mobs.Aotumuri_1
+
 tags : 
 Neifours.Throw.Tag.$(tags)
