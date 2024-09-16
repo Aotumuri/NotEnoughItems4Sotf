@@ -10,6 +10,7 @@ execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run
 execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run function neifours:tick/marker/aotumuri_summonring/1_1
 tp @s ~ ~ ~ ~1 ~
 scoreboard players remove @s Neifours.marker.AotumuriRing.Time.Count 1
+execute as @s at @s if score @s Neifours.marker.AotumuriRing.Time.Count matches ..0 run function neifours:summon/mobs/aotumuri
 execute as @s at @s if score @s Neifours.marker.AotumuriRing.Time.Count matches ..0 run kill @s
 
 execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count.lb matches ..0 run function neifours:utilities/attack/throw/summon/allrandom {ymin:50,ymax:100,aheadmin:150,aheadmax:250,tag:slb}

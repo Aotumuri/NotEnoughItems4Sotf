@@ -12,3 +12,4 @@ execute as @e[type=marker,tag=AotumuriRing_3,sort=nearest,limit=1] run scoreboar
 summon marker ~ ~ ~ {Tags:["AotumuriRing_4"]}
 execute as @e[type=marker,tag=AotumuriRing_4,sort=nearest,limit=1] run scoreboard objectives add Neifours.marker.AotumuriRing.Time.Count dummy
 execute as @e[type=marker,tag=AotumuriRing_4,sort=nearest,limit=1] run scoreboard players set @s Neifours.marker.AotumuriRing.Time.Count 400
+weather thunder 5d
