@@ -16,7 +16,14 @@ neifours:utilities/summonmagic/super_lightning_bolt {time:400}
 slb_1
 Neifours.Throw.Tag.slb_1
 super_lightning_bolt
-neifours:utilities/summonmagic/super_lightning_bolt {time:200}
+neifours:utilities/summonmagic/super_lightning_bolt {time:100}
+
+
+uslb_1
+Neifours.Throw.Tag.uslb_1
+ultra_super_lightning_bolt
+neifours:utilities/summonmagic/super_lightning_bolt {time:100}
+
 
 water_wave
 Neifours.Throw.Tag.water_wave
