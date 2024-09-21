@@ -25,3 +25,5 @@ execute if score @s Neifours.score.mobs.Aotumuri.LBA.Time matches 1.. run functi
 execute if score @s Neifours.score.mobs.Aotumuri.damageTaken.count matches 10 run function neifours:summon/marker/water_wave
 execute if score @s Neifours.score.mobs.Aotumuri.damageTaken.count matches 10 run scoreboard players set @s Neifours.score.mobs.Aotumuri.damageTaken.count 0
 
+
+execute unless data storage neifours:setting {limitmarkeraotumuri:0} run function neifours:tick/tag/aotumuri/limitmarkercooldown

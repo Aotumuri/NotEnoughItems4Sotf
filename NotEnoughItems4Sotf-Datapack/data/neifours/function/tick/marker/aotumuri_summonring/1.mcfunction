@@ -9,9 +9,9 @@ scoreboard players remove @s Neifours.marker.AotumuriRing.Count.lb_2 1
 scoreboard objectives add Neifours.marker.AotumuriRing.Count.aotumuri_1 dummy
 scoreboard players remove @s Neifours.marker.AotumuriRing.Count.aotumuri_1 1
 execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run function neifours:utilities/particle/makestarandcircle {particle:"dust{color:[0.68,1.0,1.0],scale:1}"}
-execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:particlesetting {particleAmount:0} run function neifours:tick/marker/aotumuri_summonring/1_1
-execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:particlesetting {particleAmount:1} run function neifours:tick/marker/aotumuri_summonring/1_2
-execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:particlesetting {particleAmount:2} run function neifours:tick/marker/aotumuri_summonring/1_2
+execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:setting {particleAmount:0} run function neifours:tick/marker/aotumuri_summonring/1_1
+execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:setting {particleAmount:1} run function neifours:tick/marker/aotumuri_summonring/1_2
+execute as @s at @s if score @s Neifours.marker.AotumuriRing.Count matches 2 run execute if data storage neifours:setting {particleAmount:2} run function neifours:tick/marker/aotumuri_summonring/1_2
 
 tp @s ~ ~ ~ ~1 ~
 scoreboard players remove @s Neifours.marker.AotumuriRing.Time.Count 1
