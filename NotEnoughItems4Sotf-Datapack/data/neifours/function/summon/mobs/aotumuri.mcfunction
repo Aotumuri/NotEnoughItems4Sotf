@@ -5,6 +5,7 @@ bossbar set minecraft:aotumurihp color blue
 bossbar set minecraft:aotumurihp style notched_10
 particle dust{color:[0.0,0.25,1.0],scale:4} ~ ~1 ~ 1 1 1 0 100 force
 particle dust{color:[0.0,1.0,0.98],scale:4} ~ ~1 ~ 5 5 5 0 250 force
+effect give @e[tag=Neifours.tag.mobs.Aotumuri.Boss] dolphins_grace infinite 3
 
 playsound entity.lightning_bolt.thunder player @a ~ ~ ~ 1 0.8 1
 playsound entity.lightning_bolt.thunder player @a ~ ~ ~ 1 1.2 1

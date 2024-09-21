@@ -6,6 +6,7 @@ scoreboard objectives add Neifours.score.mobs.Aotumuri.LBA.Time dummy
 scoreboard objectives add Neifours.score.mobs.Aotumuri.damageTaken.count dummy
 scoreboard objectives add Neifours.score.mobs.Aotumuri.particle.cooldown dummy
 
+
 scoreboard objectives add Neifours.score.mobs.Aotumuri.Health dummy
 execute as @s store result score @s Neifours.tag.mobs.Aotumuri.Hleath run data get entity @s Health
 execute if score @s Neifours.tag.mobs.Aotumuri.Hleath matches ..50 if entity @s[tag=!Neifours.tag.mobs.Aotumuri.Boss.Final] run function neifours:tick/tag/aotumuri/sounds
