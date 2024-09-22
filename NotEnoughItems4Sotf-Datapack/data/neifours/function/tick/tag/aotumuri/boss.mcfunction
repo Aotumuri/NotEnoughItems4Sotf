@@ -22,7 +22,7 @@ scoreboard players add @s Neifours.score.mobs.Aotumuri.LBA.Time 1
 execute if score @s Neifours.score.mobs.Aotumuri.LBA.Time matches 1.. run function neifours:tick/tag/aotumuri/tgattacklb
 
 
-execute if score @s Neifours.score.mobs.Aotumuri.damageTaken.count matches 10 run function neifours:summon/marker/water_wave
+execute if score @s Neifours.score.mobs.Aotumuri.damageTaken.count matches 10 run function neifours:tick/tag/aotumuri/summon_waterwave
 execute if score @s Neifours.score.mobs.Aotumuri.damageTaken.count matches 10 run scoreboard players set @s Neifours.score.mobs.Aotumuri.damageTaken.count 0
 
 
